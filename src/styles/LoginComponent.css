@@ -1,0 +1,111 @@
+body {
+  background-color: #c1a0a0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button-custom {
+  height: 20px;
+  width: 60px;
+  background-color: black;
+  color: rgb(129, 170, 206);
+}
+
+div {
+  text-align: center;
+  margin: 10px auto;
+  max-width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #6b5b95;
+  color: #000000;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: none; /* Removed border */
+  border-radius: 2px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.password {
+  background: hsl(0deg 0% 100%);
+  box-shadow: 0 0 2em hsl(231deg 62% 94%);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: hsl(0deg 0% 30%);
+}
+
+input {
+  outline: none;
+  border: none;
+  background-color: #9a8ea5;
+}
+
+/* Customize the placeholder shapes */
+input::placeholder {
+  color: hsl(0, 42%, 18%);
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+  padding: 8px;
+  border:black; 
+  border-radius: 4px;
+  outline: none;
+}
+
+.login-box {
+  border-radius: 15px;
+  background: linear-gradient(to bottom, #2a2652, #141226, #555560);
+  color: #610707;
+}
+.input{
+  color: #000000;
+}
+
+.label{
+  background-color: #000000;
+}
+
+.usrNm{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pswrd{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
